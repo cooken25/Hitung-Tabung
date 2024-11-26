@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title(" Menghitung Tabung  :Blue[Valume tabung] :smile:")
+st.title(" Menghitung Tabung  :blue[Valume tabung] :smile:")
