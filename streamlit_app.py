@@ -6,5 +6,5 @@ r = st.number_input("masukan jari-jari :",0)
 t = st.number_input("masukan tinggi ;",0)
 if st.button("volume", type="primary"):
   v = math.pi*(r**2)*t
-  st.succsess(f"volume tabung adalah {v..f}")
+  st.success(f"volume tabung adalah {v..f}")
    
