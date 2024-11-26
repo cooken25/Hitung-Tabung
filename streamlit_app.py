@@ -1,6 +1,10 @@
-import streamlit as st
+   import streamlit as st 
+import math
 
 st.title(" Menghitung Tabung  :red[Valume tabung] :smile:")
 r = st.number_input("masukan jari-jari :",0)
 t = st.number_input("masukan tinggi ;",0)
-st.button("Reset", type="primary")
+if st.button("Reset", type="primary"):
+  v = math.pi*(r**2)*t
+  st.succsess(f"volume tabung adalah {v..f})
+   
